@@ -1,0 +1,26 @@
+{
+  "name": "dicebot",
+  "version": "1.0.0",
+  "description": "roll dice in discord",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcefala/dicebot.git"
+  },
+  "keywords": [
+    "dicebot"
+  ],
+  "author": "MCefala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcefala/dicebot/issues"
+  },
+  "homepage": "https://github.com/mcefala/dicebot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {}
+}
