@@ -18,19 +18,17 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
 client.on("message", (msg) => {
-  if (msg.content.indexOf("/tira") !== -1) {
+  if (msg.content.indexOf("/tira ") !== -1) {
     let val = [];
     let matches = msg.content.match(/(\d+)d(\d+)?/);
-    console.log(matches);
     let n = parseInt(matches[1]);
     let d = parseInt(matches[2]);
     for (let i = 0; i < n; i++) {
       val.push(Math.floor(Math.random() * d) + 1);
     }
-    console.log(val);
     msg.reply(val.join(","));
   }
 });
 
 // // Log our bot in using the token from https://discord.com/developers/applications
-client.login("TOKEN HERE");
+client.login("");
